@@ -139,3 +139,72 @@ body {
     background: linear-gradient(var(--interactive-color-4), var(--interactive-color-2), var(--interactive-color-1));
     filter: drop-shadow(0px 20px 50px rgba(0, 178, 255, 0.25));
 }
+
+
+/* ABOUT ME SECTION */
+
+.about {
+    height: auto;
+}
+
+.about .container {
+    margin: auto;
+}
+
+.about-me-title {
+    margin-top: 160px;
+    font-size: 32px;
+    color: var(--font-color-1);
+    font-weight: 600;
+}
+
+.about-me-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+
+
+.about-me-info .date {
+    color: var(--font-color-1);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.timeline {
+    margin-top: 20px;
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(326.6deg, var(--interactive-color-1) 21.25%, var(--interactive-color-2) 58.73%, var(--interactive-color-4) 77.47%);
+    border-radius: 50%;
+    box-shadow: 0px 7px 30px rgba(19, 173, 199, 0.3);
+    position: relative;
+    z-index: 10;
+}
+
+.about-me-infos::before {
+    content: '';
+    position: absolute;
+    background-color: var(--font-color-1);
+    width: 920px;
+    height: 4.5px;
+    border: 1px solid var(--background-color);
+    z-index: -1;
+    bottom: -431px;
+    border-radius: 50px;
+}
+
+.degree {
+    margin-top: 15px;
+    color: var(--font-color-1);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.establishment {
+    margin-top: 10px;
+    color: var(--font-color-2);
+    font-weight: 500;
+}

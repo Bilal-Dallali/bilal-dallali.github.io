@@ -2,6 +2,7 @@
 
 :root {
     --background-color: #0F1624;
+    --secondary-color: #162950;
     --font-color-1: #fff; 
     --font-color-2: #929EB0;
     --interactive-color-1: #13ADC7;
@@ -29,6 +30,14 @@ body {
 .container {
     width: 1170px;
 }
+
+h3 {
+    color: var(--font-color-1);
+    margin-top: 160px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
 
 
 /* NAVBAR */
@@ -151,21 +160,12 @@ body {
     margin: auto;
 }
 
-.about-me-title {
-    margin-top: 160px;
-    font-size: 32px;
-    color: var(--font-color-1);
-    font-weight: 600;
-}
-
 .about-me-infos {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
-
-
 
 .about-me-info .date {
     color: var(--font-color-1);
@@ -206,5 +206,100 @@ body {
 .establishment {
     margin-top: 10px;
     color: var(--font-color-2);
+    font-size: 16px;
     font-weight: 500;
+}
+
+
+/* SKILLS SECTION */
+
+.skills {
+
+}
+
+.skills .container {
+    margin: auto;
+}
+
+.skill-sections {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.skill-section-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-section {
+    width: 570px;
+    padding-bottom: 40px;
+}
+
+.field-and-level {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+
+.skill-section-title {
+    color: var(--font-color-1);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.skill-section-title span {
+    color: var(--font-color-2);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skill-section-level {
+    color: var(--font-color-1);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    background: var(--secondary-color);
+    width: 570px;
+    height: 16px;
+    border-radius: 50px;
+}
+
+.progress {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 50px 0 0 50px;
+    box-shadow: 0px 3.02026px 12.944px rgba(19, 173, 199, 0.3);
+}
+
+.progress-1 {
+    width: 80%;
+}
+
+.progress-2 {
+    width: 60%;
+}
+
+.progress-3 {
+    width: 50%;
+}
+
+.progress-4 {
+    width: 60%;
+}
+
+
+@media (max-width: 768px) {
+    .skills .container {
+        
+    }
+    .skill-section-group {
+        display: flex;
+        flex-direction: column;
+    }
 }

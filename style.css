@@ -442,26 +442,106 @@ h3 {
     transition: all 0.3s ease-in-out;
     position: relative;
 }
-/*
-.portfolio-section-button-github a::after {
-    content: 'GitHub';
-    color: var(--background-color);
-    padding: 19px 40px;
-    width: 100%;
-    height: 100%;
-    background-color: var(--font-color-1);
-    border-radius: 50px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-}
-*/
+
 .portfolio-section-button-github a:hover {
     color: var(--background-color);
     background-color: var(--font-color-1);
 }
+
+
+/* CONTACT SECTION */
+
+.contact {
+}
+
+.contact .container {
+    margin: auto;
+}
+
+.contact-infos-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 60px auto;
+}
+
+.contact-infos {
+}
+
+.info-group {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.info-group img {
+    margin-right: 20px;
+}
+
+.contact-title {
+    color: var(--font-color-1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-subtitle {
+    font-size: 16px;
+    color: var(--font-color-2);
+    font-weight: 500;
+}
+
+.contact-form {
+    max-width: 565px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    resize: vertical;
+    color: var(--font-color-1);
+}
+
+textarea {
+    min-height: 100px;
+}
+  
+input[type=submit] {
+    color: var(--font-color-1);
+    padding: 20px 40px;
+    font-size: 18px;
+    background-image: linear-gradient(270deg, var(--interactive-color-1) 0%, var(--interactive-color-2) 66.67%, var(--interactive-color-4) 100%);
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px rgb(0 178 255 / 35%);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(270deg, var(--interactive-color-5) 0%, var(--interactive-color-6) 66.67%, var(--interactive-color-7) 100%);
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--font-color-2);
+    font-size: 14px;
+}
+
+input::content {
+    color: var(--font-color-1);
+}
+
+label {
+    color: var(--font-color-1);
+    font-size: 18px;
+    font-weight: 500px;
+}
+
 /*
 @media (max-width: 1200px) {
     .other-skills .container {

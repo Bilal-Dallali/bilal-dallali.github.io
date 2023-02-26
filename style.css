@@ -507,7 +507,7 @@ input[type=text], input[type=email], textarea {
 }
 
 textarea {
-    min-height: 100px;
+    min-height: 150px;
 }
   
 input[type=submit] {

@@ -20,11 +20,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
+    
 }
 
 .container {
@@ -33,7 +35,7 @@ body {
 
 h3 {
     color: var(--font-color-1);
-    margin-top: 160px;
+    margin-top: 120px;
     font-size: 32px;
     font-weight: 600;
 }
@@ -74,11 +76,27 @@ h3 {
     color: var(--font-color-1);
     font-size: 16px;
     font-weight: 500;
+    position: relative;
+}
+
+.menu .nav-item .nav-link:before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--interactive-color-4), var(--interactive-color-2), var(--interactive-color-1));
+    position: absolute;
+    bottom: -3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu .nav-item .nav-link:hover::before {
+    width: 100%;
 }
 
 /* HOME SECTION */
 .home {
-    height: 100vh;
+    height: 80vh;
     display: flex;
 }
 
@@ -154,6 +172,7 @@ h3 {
 
 .about {
     height: auto;
+    background-color: green;
 }
 
 .about .container {
@@ -542,11 +561,27 @@ label {
     font-weight: 500px;
 }
 
-/*
-@media (max-width: 1200px) {
-    .other-skills .container {
-        width: 700px;
-        margin: 0;
-    }
+
+/* SCROLLUP ICON */
+
+.scroll-up {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    right: 50px;
+    background: linear-gradient(326.6deg, var(--interactive-color-1) 21.25%, var(--interactive-color-2) 58.73%, var(--interactive-color-4) 77.47%);
+    box-shadow: 0px 10px 30px rgba(0, 178, 255, 0.35);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
-*/
+
+.scroll-up-icon {
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-up:hover .scroll-up-icon {
+    transform: translateY(-5px);
+}

@@ -1,10 +1,15 @@
 /* NAVBAR COLLAPSE */
 const menuBurger = document.querySelector(".burger")
-
+const burgerSpan1 = document.querySelector(".burger-span-1")
+const burgerSpan2 = document.querySelector(".burger-span-2")
+const burgerSpan3 = document.querySelector(".burger-span-3")
 const navLinks = document.querySelector(".links")
 
 menuBurger.addEventListener("click", () => {
     navLinks.classList.toggle("mobile-menu")
+    burgerSpan1.classList.toggle("burger-span-4")
+    burgerSpan2.classList.toggle("burger-span-5")
+    burgerSpan3.classList.toggle("burger-span-6")
 })
 
 

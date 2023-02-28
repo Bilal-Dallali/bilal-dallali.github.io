@@ -726,6 +726,25 @@ label {
 
   .burger {
     display: flex;
+    
+  }
+
+  .burger .burger-span-1, .burger .burger-span-2, .burger .burger-span-3 {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .burger .burger-span-4 {
+    position: absolute;
+    transform: rotate(45deg);
+  }
+
+  .burger .burger-span-5 {
+    background-color: transparent;
+  }
+
+  .burger .burger-span-6 {
+    position: absolute;
+    transform: rotate(-45deg);
   }
 
   .links {

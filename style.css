@@ -838,6 +838,57 @@ label {
   .cv-button a::after {
     padding: 13.5px 28px 14.5px 28px;
   }
+
+  .about-me-title {
+    font-size: 28px;
+  }
+
+  .about-me-infos {
+    flex-direction: column;
+    width: 100%;
+    margin: 45px auto;
+  }
+
+  .about-me-info {
+    display: flex;
+  }
+
+  .about-me-info .date {
+    width: 55px;
+    margin-top: -5px;
+  }
+
+ 
+  .timeline {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+  .timeline .line {
+    width: 2px;
+    height: 116px;
+  }
+
+  .degree-establishment {
+    margin-left: 20px;
+  }
+
+  .degree {
+    margin-top: -5px;
+  }
+
+  .degree br {
+    display: none;
+  }
+
+  .establishment {
+    margin-top: 0;
+  }
 }
 
 
@@ -883,5 +934,9 @@ label {
 
   .home-infos .catch-phrase {
     font-size: 14px;
+  }
+
+  .about-me-title {
+    font-size: 24px;
   }
 }

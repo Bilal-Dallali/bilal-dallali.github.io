@@ -830,7 +830,13 @@ label {
   }
 
   .cv-button a {
-    top: 343px;
+    top: 333px;
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+
+  .cv-button a::after {
+    padding: 13.5px 28px 14.5px 28px;
   }
 }
 

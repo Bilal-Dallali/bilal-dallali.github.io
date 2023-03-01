@@ -909,6 +909,10 @@ label {
   .nav-item::before {
    
   }
+
+  
+
+  
 }
 
 
@@ -938,5 +942,28 @@ label {
 
   .about-me-title {
     font-size: 24px;
+  }
+
+  .about-me-info .date {
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .degree-establishment {
+    margin-left: 5px;
+    width: 220px;
+  }
+
+  .degree {
+    font-size: 16px;
+  }
+
+  .timeline {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .establishment {
+    font-size: 14px;
   }
 }

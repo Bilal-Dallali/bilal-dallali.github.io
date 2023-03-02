@@ -717,6 +717,8 @@ label {
   }
 
   
+
+  
 }
 
 @media (max-width: 992px) {
@@ -858,7 +860,6 @@ label {
     margin-top: -5px;
   }
 
- 
   .timeline {
     margin-left: 30px;
     margin-right: 30px;
@@ -866,8 +867,6 @@ label {
     display: flex;
     flex-direction: column;
   }
-
-  
 
   .timeline .line {
     width: 2px;
@@ -888,6 +887,23 @@ label {
 
   .establishment {
     margin-top: 0;
+  }
+
+  .skill-section-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-section {
+    width: 100%;
+  }
+
+  .skills-title {
+    font-size: 28px;
+  }
+
+  .skill-section-level {
+    font-size: 16px;
   }
 }
 
@@ -964,6 +980,14 @@ label {
   }
 
   .establishment {
+    font-size: 14px;
+  }
+
+  .skill-section-title {
+    font-size: 18px;
+  }
+
+  .skill-section-title span {
     font-size: 14px;
   }
 }

@@ -715,10 +715,6 @@ label {
   .contact-form {
     width: 465px;
   }
-
-  
-
-  
 }
 
 @media (max-width: 992px) {
@@ -728,7 +724,6 @@ label {
 
   .burger {
     display: flex;
-    
   }
 
   .burger .burger-span-1, .burger .burger-span-2, .burger .burger-span-3 {
@@ -905,6 +900,14 @@ label {
   .skill-section-level {
     font-size: 16px;
   }
+
+  .other-skill {
+    margin-right: 50px;
+  }
+
+  .other-skills-section-title {
+    font-size: 24px;
+  }
 }
 
 
@@ -918,17 +921,10 @@ label {
   }
 
   .links {
-    
-
   }
 
   .nav-item::before {
-   
   }
-
-  
-
-  
 }
 
 
@@ -967,7 +963,7 @@ label {
 
   .degree-establishment {
     margin-left: 5px;
-    width: 220px;
+    width: 290px;
   }
 
   .degree {
@@ -983,11 +979,24 @@ label {
     font-size: 14px;
   }
 
+  .skills-title {
+    font-size: 24px;
+  }
+
   .skill-section-title {
     font-size: 18px;
   }
 
   .skill-section-title span {
     font-size: 14px;
+  }
+
+  .other-skills-section-title {
+    font-size: 20px;
+  }
+
+  .other-skill {
+    font-size: 16px;
+    min-width: 95px;
   }
 }

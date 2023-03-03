@@ -459,11 +459,18 @@ h3 {
   color: var(--font-color-1);
 }
 
+.app-description{
+  color: var(--font-color-2);
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
 .portfolio-section-description {
   margin-top: 10px;
   font-size: 16px;
   color: var(--font-color-2);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .portfolio-section-buttons {
@@ -908,6 +915,40 @@ label {
   .other-skills-section-title {
     font-size: 24px;
   }
+
+  .portfolio-title {
+    font-size: 28px;
+  }
+
+  .portfolio-section {
+    width: 355px;
+  }
+
+  .portfolio-section-image img {
+    width: 265px;
+    height: 140px;
+  }
+
+  .portfolio-section-buttons {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-section-button-preview a {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+
+  .portfolio-section-button-preview a::after {
+    content: 'Aperçu';
+    font-size: 16px;
+    padding: 13.5px 28px 14.5px 28px;
+  }
+
+  .portfolio-section-button-github a {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
 }
 
 
@@ -924,6 +965,26 @@ label {
   }
 
   .nav-item::before {
+  }
+
+  .portfolio-section-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .portfolio-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-section-content {
+    width: 100%;
+  }
+
+  .portfolio-section-image img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -998,5 +1059,21 @@ label {
   .other-skill {
     font-size: 16px;
     min-width: 95px;
+  }
+
+  .portfolio-title {
+    font-size: 24px;
+  }
+
+  .portfolio-section-title {
+    font-size: 18px;
+  }
+
+  .app-description {
+    font-size: 14px;
+  }
+
+  .portfolio-section-description {
+    font-size: 14px;
   }
 }

@@ -15,6 +15,22 @@
   --navbar-shadow: 0px 10px 30px rgba(0, 178, 255, 0.35);
 }
 
+.light-mode {
+  --background-color: #f5f5f5;
+  --secondary-color: #fff;
+  --font-color-1: #0f1624;
+  --font-color-2: #69778d;
+  --interactive-color-1: #0077b6;
+  --interactive-color-2: #1d3557;
+  --interactive-color-3: #a8dadc;
+  --interactive-color-4: #457b9d;
+  --interactive-color-5: #219ebc;
+  --interactive-color-6: #3d5a80;
+  --interactive-color-7: #5d737e;
+  --navbar-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
 *,
 ::before,
 ::after {
@@ -120,7 +136,6 @@ h3 {
   border-radius: 2px;
   background-color: var(--font-color-1);
 }
-
 
 /* HOME SECTION */
 .home {
@@ -459,7 +474,7 @@ h3 {
   color: var(--font-color-1);
 }
 
-.app-description{
+.app-description {
   color: var(--font-color-2);
   font-weight: 500;
   margin-top: 10px;
@@ -733,7 +748,9 @@ label {
     display: flex;
   }
 
-  .burger .burger-span-1, .burger .burger-span-2, .burger .burger-span-3 {
+  .burger .burger-span-1,
+  .burger .burger-span-2,
+  .burger .burger-span-3 {
     transition: all 0.5s ease-in-out;
   }
 
@@ -940,7 +957,7 @@ label {
   }
 
   .portfolio-section-button-preview a::after {
-    content: 'Aperçu';
+    content: "Aperçu";
     font-size: 16px;
     padding: 13.5px 28px 14.5px 28px;
   }
@@ -950,7 +967,6 @@ label {
     padding: 14px 28px;
   }
 }
-
 
 @media (max-width: 768px) {
   .container {
@@ -987,7 +1003,6 @@ label {
     height: auto;
   }
 }
-
 
 @media (max-width: 576px) {
   .logo a {

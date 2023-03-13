@@ -25,3 +25,21 @@ window.addEventListener('scroll', function() {
         navBar.style.height = "100px"
     }
 })
+
+/* TEXT ANIMATIONS */
+
+const txtAnim = document.querySelector(".txt-anim")
+
+new Typewriter(txtAnim, {
+    loop: true,
+    deleteSpeed: 20
+})
+.typeString(" Web")
+.pauseFor(1000)
+
+
+//.pause(1000)
+.deleteChars(4)
+.typeString(" mobile iOS")
+.pauseFor(2000)
+.start()

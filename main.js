@@ -40,6 +40,6 @@ new Typewriter(txtAnim, {
 
 //.pause(1000)
 .deleteChars(4)
-.typeString(" mobile iOS")
+.typeString(" d'applications iOS")
 .pauseFor(2000)
 .start()
